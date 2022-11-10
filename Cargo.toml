@@ -1,0 +1,15 @@
+[package]
+name = "imgcmp-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Yahia Zakaria"]
+description = "A simple pixel-wise image comparator"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.66"
+clap = { version = "4.0.22", features = ["cargo"] }
+image = "0.24.4"
+itertools = "0.10.5"
